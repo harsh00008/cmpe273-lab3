@@ -4,6 +4,7 @@
 .settings
 logs
 target
+.DS_Store
 
 # Package Files #
 *.jar

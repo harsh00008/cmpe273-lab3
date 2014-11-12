@@ -19,7 +19,6 @@ public class DistributedCacheService implements CacheServiceInterface {
     /**
      * @see edu.sjsu.cmpe.cache.client.CacheServiceInterface#get(long)
      */
-    @Override
     public String get(long key) {
         HttpResponse<JsonNode> response = null;
         try {
@@ -38,7 +37,6 @@ public class DistributedCacheService implements CacheServiceInterface {
      * @see edu.sjsu.cmpe.cache.client.CacheServiceInterface#put(long,
      *      java.lang.String)
      */
-    @Override
     public void put(long key, String value) {
         HttpResponse<JsonNode> response = null;
         try {
