@@ -1,4 +1,4 @@
-ICMPE273 - Lab 3 - Consistent Hashing Cache Client
+CMPE273 - Lab 3 - Consistent Hashing Cache Client
 =================================================
 
 This client adds and gets code from cache servers based on Consistent Hashing.
@@ -10,6 +10,7 @@ $ mvn clean package
 $ ./bin/client.s
 
 #Console output
+```
 =========== Adding Data to the server ===========
 
 |-------------------------------------------|
@@ -125,4 +126,4 @@ $ ./bin/client.s
 |=========================================|
 
 
-
+```
