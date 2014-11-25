@@ -1,4 +1,4 @@
-cmpe273-lab3
+Consistent Hashing in Java
 ============
 
-CMPE 273 Lab 3 Baseline
+
